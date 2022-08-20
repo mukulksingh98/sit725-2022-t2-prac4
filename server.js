@@ -11,7 +11,7 @@ app.use(cors())
 const MongoClient = require('mongodb').MongoClient
 
 //add database connection...
-const uri = 'mongodb+srv://admin:admin@cluster0.k20uelk.mongodb.net/?retryWrites=true&w=majority'
+const uri = 'mongodb+srv://admin:admin@cluster0.pohyldt.mongodb.net/?retryWrites=true&w=majority'
 const client = new MongoClient(uri, {useNewUrlParser: true})
 
 //create collection....
